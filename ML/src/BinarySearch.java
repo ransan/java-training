@@ -12,8 +12,7 @@ public class BinarySearch {
 	private static int doBinarySearch(int[] array, int leftIndex, int rightIndex, int target) {
 		while(leftIndex <= rightIndex) {
 			int middle = leftIndex + (rightIndex - leftIndex )/2;
-			if(array[middle] == target) 
-				return middle;
+			if(array[middle] == target) return middle;
 			 if(array[middle] < target)  leftIndex = middle + 1; 
 			 else rightIndex = middle - 1;
 		}
