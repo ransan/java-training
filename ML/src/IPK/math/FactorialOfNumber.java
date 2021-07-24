@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.math;
+package IPK.math;
 
 // Space complexity O(n)
 // Time Complexity O(n)

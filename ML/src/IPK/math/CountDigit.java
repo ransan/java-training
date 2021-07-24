@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.math;
+package IPK.math;
 
 // Time Complexity O(d) - d is Degit
 public class CountDigit {

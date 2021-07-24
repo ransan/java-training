@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.recrusion;
+package IPK.recrusion;
 
 import java.util.HashMap;
 import java.util.Map;

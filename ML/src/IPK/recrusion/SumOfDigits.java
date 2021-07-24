@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.recrusion;
+package IPK.recrusion;
 
 public class SumOfDigits {
     public static void main(String[] args) {

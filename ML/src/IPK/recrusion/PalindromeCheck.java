@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.recrusion;
+package IPK.recrusion;
 
 public class PalindromeCheck {
     public static void main(String[] args) {

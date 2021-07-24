@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.recrusion;
+package IPK.recrusion;
 
 public class SubSetsOfString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.bit_magic;
+package IPK.bit_magic;
 
 public class FindOddOccuringNumber {
     public static void main(String[] args) {

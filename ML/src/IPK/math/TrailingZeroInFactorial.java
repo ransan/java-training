@@ -1,6 +1,4 @@
-package geeksforgeeks.array.IPK.math;
-
-import java.util.Collections;
+package IPK.math;
 
 // Time Complexity O(loglogN)
 // Space complexity O(1)
