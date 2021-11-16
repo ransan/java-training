@@ -18,8 +18,8 @@ public class DeleteNodeWithOutHeadPointer {
                 return;
             }
         }
-        SLNode temp = slNode.getNext();
-        slNode.setValue(slNode.getNext().getValue());
-        slNode.setNext(slNode.getNext().getNext());
+        SLNode temp = slNode.getNext(); // node.next;
+        slNode.setValue(slNode.getNext().getValue()); // node.data = node.next.data;
+        slNode.setNext(slNode.getNext().getNext()); // node.next = node.next.next;
     }
 }
