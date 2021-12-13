@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.dynamic_programming.memoization;
+package IPK.dynamic_programming.memoization;
 
 import java.util.HashMap;
 import java.util.Map;

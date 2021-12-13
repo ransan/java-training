@@ -5,7 +5,7 @@ import java.util.Arrays;
 // Time Complexity O(nloglogn)
 public class SeiveOfErantosthenes {
     public static void main(String[] args) {
-        int number = 5;
+        int number = 11;
         boolean[] array = new boolean[number + 1];
         Arrays.fill(array, true);
         for (int i = 2; i <= number; i++) {

@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.dynamic_programming.memoization;
+package IPK.dynamic_programming.memoization;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 public class SumOfTarget {
     private static Map<Integer, Boolean>  memo = new HashMap<>();
     public static void main(String[] args) {
-        int[] array = {7,14};
+        int[] array = {25,14};
         int target = 300;
         System.out.println(isTaragetFound(array, target));
     }
