@@ -29,4 +29,8 @@ public class AdjacencyListRepresentation {
         adjacencyList.get(u).add(v);
         adjacencyList.get(v).add(u);
     }
+
+    public static void addDirectedEdge(ArrayList<ArrayList<Integer>> adjacencyList, int u, int v) {
+        adjacencyList.get(u).add(v);
+    }
 }
