@@ -33,4 +33,21 @@ public class AdjacencyListRepresentation {
     public static void addDirectedEdge(ArrayList<ArrayList<Integer>> adjacencyList, int u, int v) {
         adjacencyList.get(u).add(v);
     }
+
+    public static void addWeightedDirectedGraphEdge(ArrayList<ArrayList<AdjacencyNodeWeightedGraph>> adjacencyList, int u, int v, int weight) {
+        AdjacencyNodeWeightedGraph adjacencyNodeWeightedGraph = new AdjacencyNodeWeightedGraph(v, weight);
+        adjacencyList.get(u).add(adjacencyNodeWeightedGraph);
+    }
+
+    public static void addWeightedUnDirectedGraphEdge(ArrayList<ArrayList<AdjacencyNodeWeightedGraph>> adjacencyList, int u, int v, int weight) {
+        AdjacencyNodeWeightedGraph adjacencyNodeWeightedGraphV = new AdjacencyNodeWeightedGraph(v, weight);
+        AdjacencyNodeWeightedGraph adjacencyNodeWeightedGraphU = new AdjacencyNodeWeightedGraph(u, weight);
+        adjacencyList.get(u).add(adjacencyNodeWeightedGraphV);
+        adjacencyList.get(v).add(adjacencyNodeWeightedGraphU);
+    }
+
+    public static void addWeightedUnDirectedMatrixGraphEdge(int[][] graph, int u, int v, int weight) {
+        graph[u][v] = weight;
+        graph[v][u] = weight;
+    }
 }
