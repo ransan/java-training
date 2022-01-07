@@ -50,4 +50,8 @@ public class AdjacencyListRepresentation {
         graph[u][v] = weight;
         graph[v][u] = weight;
     }
+
+    public static void addWeightedDirectedMatrixGraphEdge(int[][] graph, int u, int v, int weight) {
+        graph[u][v] = weight;
+    }
 }
