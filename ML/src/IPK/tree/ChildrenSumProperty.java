@@ -1,5 +1,10 @@
 package IPK.tree;
 
+/**
+ * Given a binary tree, write a function that returns true if the tree satisfies below property.
+ * For every node, data value must be equal to sum of data values in left and right children.
+ * Consider data value as 0 for NULL children.
+ */
 public class ChildrenSumProperty {
     private Node root;
 
@@ -19,7 +24,9 @@ public class ChildrenSumProperty {
 
     public static boolean isValidChildernSum(Node root) {
         if (root == null) return true;
-        if (root.getLeft() == null && root.getRight() == null) return true;
+        if (root.getLeft() == null && root.getRight() == null) {
+            return root.getValue() == 0;
+        }
         int sum = 0;
         if (root.getLeft() != null) {
             sum += root.getLeft().getValue();

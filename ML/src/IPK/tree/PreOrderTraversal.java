@@ -1,5 +1,8 @@
 package IPK.tree;
 
+/**
+ * ROOT LEFT RIGHT
+ */
 public class PreOrderTraversal {
 
     private Node root;

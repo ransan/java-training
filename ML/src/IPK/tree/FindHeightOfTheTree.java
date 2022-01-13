@@ -1,5 +1,9 @@
 package IPK.tree;
 
+/**
+ * Given a binary tree, find height of it.
+ * Height of empty tree is -1, height of tree with one node is 0 and height of below tree is 2.
+ */
 public class FindHeightOfTheTree {
 
     private Node root;

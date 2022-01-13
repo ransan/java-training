@@ -2,9 +2,9 @@ package IPK.tree;
 
 public class Node {
 
-    private Node left;
-    private Node right;
-    private int value;
+    public Node left;
+    public Node right;
+    public int value;
 
     public Node(int value) {
         this.value = value;

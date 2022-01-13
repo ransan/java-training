@@ -12,13 +12,19 @@ public class PrintLeftViewWayTwo {
 
     public static void main(String[] args) {
         final PrintLeftViewWayTwo tree = new PrintLeftViewWayTwo();
-        tree.root = new Node(4);
+        /**
+         tree.root = new Node(4);
+         tree.root.setLeft(new Node(5));
+         tree.root.setRight(new Node(2));
+         tree.root.getRight().setLeft(new Node(3));
+         tree.root.getRight().setRight(new Node(1));
+         tree.root.getRight().getLeft().setLeft(new Node(6));
+         tree.root.getRight().getLeft().setRight(new Node(7));
+         */
+        tree.root = new Node(10);
         tree.root.setLeft(new Node(5));
-        tree.root.setRight(new Node(2));
-        tree.root.getRight().setLeft(new Node(3));
-        tree.root.getRight().setRight(new Node(1));
-        tree.root.getRight().getLeft().setLeft(new Node(6));
-        tree.root.getRight().getLeft().setRight(new Node(7));
+        tree.root.setRight(new Node(15));
+        tree.root.getRight().setLeft(new Node(20));
         printLeftView(tree.root);
     }
 

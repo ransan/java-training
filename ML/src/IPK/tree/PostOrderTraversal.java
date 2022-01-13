@@ -1,5 +1,8 @@
 package IPK.tree;
 
+/**
+ * LEFT RIGHT ROOT
+ */
 public class PostOrderTraversal {
 
     private Node root;

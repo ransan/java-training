@@ -1,9 +1,9 @@
 package IPK.linkedlist;
 
 public class DLNode {
-    private DLNode next;
-    private DLNode previous;
-    private int value;
+    public DLNode next;
+    public DLNode previous;
+    public int value;
 
     public DLNode(int value) {
         this.value = value;

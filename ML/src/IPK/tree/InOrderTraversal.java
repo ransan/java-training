@@ -1,5 +1,8 @@
 package IPK.tree;
 
+/**
+ * LEFT ROOT RIGHT
+ */
 public class InOrderTraversal {
 
     private Node root;
@@ -10,11 +13,11 @@ public class InOrderTraversal {
 
     public static void main(String[] args) {
         /**
-        InOrderTraversal tree = new InOrderTraversal();
-        tree.root = new Node(10);
-        tree.root.setLeft(new Node(9));
-        tree.root.setRight(new Node(20));
-        tree.root.getLeft().setLeft(new Node(5));
+         InOrderTraversal tree = new InOrderTraversal();
+         tree.root = new Node(10);
+         tree.root.setLeft(new Node(9));
+         tree.root.setRight(new Node(20));
+         tree.root.getLeft().setLeft(new Node(5));
          **/
 
         InOrderTraversal tree = new InOrderTraversal();
