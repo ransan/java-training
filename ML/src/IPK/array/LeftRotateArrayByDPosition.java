@@ -5,9 +5,9 @@ public class LeftRotateArrayByDPosition {
         int[] array = {1, 2, 3, 4, 5};
         int n = array.length;
         int d = 3;
-        reverse(array, 0, d - 1);
-        reverse(array, d, n - 1);
-        reverse(array, 0, n - 1);
+        reverse(array, 0, d-1);
+       // reverse(array, d, n - 1);
+       //  reverse(array, 0, n - 1);
         for (int i = 0; i < n; i++) {
             System.out.print(array[i] + " ");
         }
