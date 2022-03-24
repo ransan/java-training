@@ -5,7 +5,7 @@ public class AnagramCheck {
 
     public static void main(String[] args) {
         final String s1 = "abc";
-        final String s2 = "acd";
+        final String s2 = "acb";
         isAnagram(s1, s2);
     }
 

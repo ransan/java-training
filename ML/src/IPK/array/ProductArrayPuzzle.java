@@ -3,13 +3,17 @@ package IPK.array;
 import java.util.Arrays;
 
 /**
- * I/P: [,3,4]
+ * I/P: [1,2,3,4]
  * O/P: [24,12,8,1,26]
  */
 public class ProductArrayPuzzle {
     public static void main(String[] args) {
         int[] array = {1, 0};
         int[] array1 = {1, 2, 3, 4};
+
+        int sum = Arrays.stream(array1).boxed().mapToInt(e -> e).reduce(0, Math::addExact);
+        System.out.println("**** " + sum);
+
         productArrayMethod1(array, array.length);
         System.out.print("=========================");
         productArrayMethod2(array1, array1.length);
@@ -40,6 +44,8 @@ public class ProductArrayPuzzle {
     private static void productArrayMethod2(int[] array, int size) {
         long[] res = new long[size];
         long product = Arrays.stream(array).boxed().mapToLong(e -> e).reduce(1l, Math::multiplyExact);
+
+
         for (int i = 0; i < size; i++) {
             res[i] = product / array[i];
         }

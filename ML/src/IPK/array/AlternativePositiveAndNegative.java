@@ -79,7 +79,7 @@ public class AlternativePositiveAndNegative {
             }
         } else if ("NEG".equals(type)) {
             for (int i = 1; i <= size; i++) {
-                list.add(i * 2 -1);
+                list.add(i * 2 - 1);
             }
         }
         return list;
