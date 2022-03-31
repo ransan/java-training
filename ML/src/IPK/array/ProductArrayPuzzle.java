@@ -10,13 +10,14 @@ public class ProductArrayPuzzle {
     public static void main(String[] args) {
         int[] array = {1, 0};
         int[] array1 = {1, 2, 3, 4};
+        int[] array2 = {1, 2, 3, 4};
 
         int sum = Arrays.stream(array1).boxed().mapToInt(e -> e).reduce(0, Math::addExact);
         System.out.println("**** " + sum);
 
-        productArrayMethod1(array, array.length);
+        productArrayMethod1(array1, array1.length);
         System.out.print("=========================");
-        productArrayMethod2(array1, array1.length);
+        productArrayMethod2(array2, array2.length);
     }
 
     private static void productArrayMethod1(int[] array, int size) {

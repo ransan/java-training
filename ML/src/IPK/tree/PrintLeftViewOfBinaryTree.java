@@ -9,13 +9,16 @@ public class PrintLeftViewOfBinaryTree {
 
     public static void main(String[] args) {
         final PrintLeftViewOfBinaryTree tree = new PrintLeftViewOfBinaryTree();
+
         tree.root = new Node(4);
         tree.root.setLeft(new Node(5));
+        tree.root.getLeft().setLeft(new Node(10));
         tree.root.setRight(new Node(2));
         tree.root.getRight().setLeft(new Node(3));
         tree.root.getRight().setRight(new Node(1));
         tree.root.getRight().getLeft().setLeft(new Node(6));
         tree.root.getRight().getLeft().setRight(new Node(7));
+
 
         Print print = new Print();
         print.printLeftTree(tree.root, 1);

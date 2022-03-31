@@ -10,13 +10,14 @@ public class PrintRightViewOfTree {
 
     public static void main(String[] args) {
         final PrintRightViewOfTree tree = new PrintRightViewOfTree();
-        tree.root = new Node(4);
-        tree.root.setLeft(new Node(5));
-        tree.root.setRight(new Node(2));
-        tree.root.getRight().setLeft(new Node(3));
-        tree.root.getRight().setRight(new Node(1));
-        tree.root.getRight().getLeft().setLeft(new Node(6));
-        tree.root.getRight().getLeft().setRight(new Node(7));
+        tree.root = new Node(1);
+        tree.root.left = new Node(2);
+        tree.root.right = new Node(3);
+        tree.root.left.left = new Node(4);
+        tree.root.left.right = new Node(5);
+        tree.root.right.left = new Node(6);
+        tree.root.right.right = new Node(7);
+        tree.root.right.left.right = new Node(8);
         rightView(tree.root, 1);
     }
 

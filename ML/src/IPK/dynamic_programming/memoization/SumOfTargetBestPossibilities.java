@@ -9,8 +9,8 @@ public class SumOfTargetBestPossibilities {
     private static Map<Integer, List<Integer>> memo = new HashMap<>();
 
     public static void main(String[] args) {
-        int target = 100;
-        int[] array = {25, 5};
+        int target = 5;
+        int[] array = {1, 2,3};
         System.out.println(shortestPath(array, target));
     }
 

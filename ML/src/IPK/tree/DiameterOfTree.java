@@ -13,7 +13,7 @@ public class DiameterOfTree {
         tree.root.right.left.left = new Node(50);
         tree.root.right.right = new Node(60);
         tree.root.right.right.right = new Node(70);
-        diameter(tree.root);
+        System.out.println(diameter(tree.root));
         System.out.println(response);
     }
 

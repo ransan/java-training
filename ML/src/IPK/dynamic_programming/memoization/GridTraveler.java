@@ -1,4 +1,4 @@
-package geeksforgeeks.array.IPK.dynamic_programming.memoization;
+package IPK.dynamic_programming.memoization;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,10 +13,10 @@ public class GridTraveler {
     public static void main(String[] args) {
         int n = 18;
         int m = 18;
-        System.out.println(findPathCount(1,1));
-        System.out.println(findPathCount(2,3));
+        //System.out.println(findPathCount(1,1));
+        //System.out.println(findPathCount(2,3));
         System.out.println(findPathCount(3,3));
-        System.out.println(findPathCount(n,m));
+       // System.out.println(findPathCount(n,m));
     }
 
     private static long findPathCount(int n, int m) {

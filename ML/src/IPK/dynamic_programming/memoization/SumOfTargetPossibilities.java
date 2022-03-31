@@ -9,7 +9,7 @@ public class SumOfTargetPossibilities {
     private static Map<Integer, List<Integer>> memo = new HashMap<>();
 
     public static void main(String[] args) {
-        int[] array = {2, 3};
+        int[] array = {1,2, 3};
         int target = 7;
         System.out.println(sum(array, target));
 

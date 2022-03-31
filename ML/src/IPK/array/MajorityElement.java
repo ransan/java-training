@@ -4,11 +4,11 @@ import java.util.Objects;
 
 public class MajorityElement {
     public static void main(String[] args) {
-        int[] array = {8, 3, 4, 8, 8};
+        int[] array = {8, 3, 4, 8, 8, 8};
         int size = array.length;
         int res = getMajority(array, size);
-        int data = checkMajority(res, size, array);
-        System.out.println(data);
+        //int data = checkMajority(res, size, array);
+        System.out.println(res);
     }
 
     private static int getMajority(int[] array, int size) {
