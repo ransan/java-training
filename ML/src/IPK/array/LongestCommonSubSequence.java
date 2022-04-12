@@ -1,8 +1,5 @@
 package IPK.array;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class LongestCommonSubSequence {
     public static void main(String[] args) {
         String s1 = "ABCDGH";

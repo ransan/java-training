@@ -4,13 +4,8 @@ import java.util.Scanner;
 
 public class JumpGameProblem {
     public static void main(String[] args) {
-        int n = 10;
-        int[] array = new int[n];
-        Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < n; i++) {
-            array[i] = scanner.nextInt();
-        }
-        System.out.println(isReachable(array, n));
+
+        System.out.println(isReachable(new int [] {1,0,2}, 3));
     }
 
     private static boolean isReachable(int[] array, int n) {

@@ -2,7 +2,7 @@ package IPK.array;
 
 public class FindLargestElementIndexInArray {
     public static void main(String[] args) {
-        int[] array = {5, 8, 10, 20, 12, 25, 17};
+        int[] array = {50, 8, 10, 20, 12, 25, 17};
         System.out.println(getLargest(array));
         System.out.println(largest(array));
     }
